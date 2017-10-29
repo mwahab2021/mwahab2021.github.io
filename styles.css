@@ -1,11 +1,11 @@
 body{
 	background-size: cover;
 	margin: 0;
-	margin-top: 77px;
+	margin-top: 124px;
 }
 
 #head {
-	background: rgb(222,222,222);
+	background: rgb(160,160,160);
 	position: fixed;
 	z-index: 100;
 	top: 0;
@@ -15,6 +15,7 @@ body{
 #head h1 {
 	margin: 0;
 	padding: 20px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 #map {
@@ -28,11 +29,43 @@ body{
 
 #description{
 	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 #skiform{
 	text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#home {
+	z-index: 100;
+	background-color: green
+}
+
+#home a:hover{
+	background-color: green;
+}
 
